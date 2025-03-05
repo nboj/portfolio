@@ -18,7 +18,7 @@ const WebDevSection = () => {
                     <p>Then came Next.js, a revelation in my web development journey. My initial fascination quickly evolved into a profound passion. This wasn&apos;t just another tool—it was a game-changer. Every feature, from its integrated approach to back and front end development to the innovative server-side components in NextJS 13, became a new playground for me to explore. The boundless creative and technical possibilities it presented fueled my passion even more, compelling me to craft richer, more seamless user experiences.</p>
                 </WebSection>
                 <WebSection title={"My First Website"}>
-                    <p>https://christianauman.com Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius sagittis augue, eu convallis libero dapibus in.}</p>
+                    <p>https://christianauman.com Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam varius sagittis augue, eu convallis libero dapibus in.</p>
                 </WebSection>
             </div>
         </div>

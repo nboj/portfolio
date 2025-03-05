@@ -8,7 +8,7 @@
 
 .title {
     text-align: center;
-    font-size: calc(8cqw + 6cqh);
+    font-size: calc(5cqw + 3cqh);
     font-weight: 800;
     font-family: var(--font-alumni-sans);
     color: var(--primary);
