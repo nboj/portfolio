@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import NavLink from "./components/NavLink";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 type LinkType = Readonly<{
     url: string;
@@ -27,12 +28,12 @@ const Navbar = () => {
         <nav className={styles.nav}>
             <div className={styles.section}>
                 <NavLink href="/">
-                    <span className={styles.ca_text}>CA</span>
+                    <span className={styles.link}>CA</span>
                 </NavLink>
             </div>
             <div className={styles.section}>
                 <NavLink href="/">
-                    <h1 className={styles.name_title}>Christian Auman</h1>
+                    <h1 className={styles.name_title}><span className={styles.first_name}>Christian</span> <span className={styles.last_name}>Auman</span></h1>
                 </NavLink>
             </div>
             <div className={styles.section}>
@@ -45,6 +46,9 @@ const Navbar = () => {
                         )
                     })
                 }
+            </div>
+            <div className={styles.section}>
+                <HiMenuAlt3 className={styles.menu_icon} />
             </div>
         </nav>
     )
